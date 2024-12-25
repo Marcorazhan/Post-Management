@@ -3,7 +3,7 @@ body {
     font-family: 'Times New Roman', sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f8f9fa;
+    background-color: #e9ecef;  /* Set a background color for the whole page */
     margin: 0;
     padding: 0;
 }
@@ -204,4 +204,20 @@ ul {
 .home-link:hover, .about-link:hover {
     background-color: #0056b3;
     transform: translateY(-3px);
+}
+
+.top-centered-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns content at the top */
+    height: 5vh; /* Full viewport height */
+    text-align: center;
+    padding-top: 20px; /* Adjust top spacing if needed */
+}
+
+.top-centered-paragraph p {
+    font-size: 36px;
+    font-weight: bold;
+    color: #34495e;
+    margin: 0; /* Remove default margin */
 }
